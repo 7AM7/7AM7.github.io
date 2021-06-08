@@ -4,8 +4,7 @@ title: Introduction to Arabic Sign Language Recognition
 date: '2021-06-6 10:42'
 excerpt: >-
   Introduction to Arabic Sign Language Recognition with MediaPipe framework and custom Deep Learning approach.
-comments: true
-published: true
+comments: trueß
 ---
 
 ## What is Arabic Sign Language (ArSL)?
