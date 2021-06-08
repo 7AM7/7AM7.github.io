@@ -14,4 +14,11 @@ Arabic Sign Language or ArSL as it’s popularly called by its acronym, is a fas
 
 Note: ArSL uses only one hand to form the letters in the alphabet.
 
+HERE’S THE ARABIC SIGN LANGUAGE  ALPHABET TO HELP YOU GET STARTED IN LEARNING ArSL:
+
+![1-s2.0-S2352340919301283-gr1.jpg]({{site.baseurl}}/img/1-s2.0-S2352340919301283-gr1.jpg)
+
+
+
+
 
