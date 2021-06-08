@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Arabic Sign Language Recognition
+title: Introduction to Arabic Sign Language Recognition
 date: '2021-06-6 10:42'
 excerpt: >-
   Doubling the training speed by adding two arguments to the new input pipeline
