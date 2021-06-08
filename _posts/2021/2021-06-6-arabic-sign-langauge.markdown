@@ -72,5 +72,5 @@ The diagram above shows the MediaPipe graph for detecting and rendering the posi
 
 - The collection, management, and processing of training data is a task which cannot feasibly be done manually, and should be streamlined.
 
-In the future articles we will talk about data cleaning and preprocessing, Extracting Holistic model positions/features for each frame of the videos and saving them, by building a pipeline with MediaPipe, that simply writes out the detection made by MediaPipe to CSV files.
+In the future articles we will talk about data cleaning and preprocessing, Extracting Holistic model positions/features for each frame of the videos and saving them locally to train our Deep learning model;
 
