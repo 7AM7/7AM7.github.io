@@ -21,3 +21,11 @@ Note: ArSL uses only one hand to form the letters in the alphabet.
 Any ArSL user knows how crucial being able to fingerspell and understand it in return truly is. Fingerspelling is used to spell out words that do not have a sign such as people’s names, countries, cities and brand names. When you’re in the early stages of learning and don’t know sign language phrases, the sign language alphabet can bridge the gap between you and the Hard of hearing person you need to communicate with.
 
 
+## Approach and Methodology
+### Dataset Overview
+[KArSL](https://dl.acm.org/doi/10.1145/3423420) database for ArSL, consisting of 502 signs that cover 11 chapters of ArSL dictionary. Signs in KArSL database are performed by three professional signers, and each sign is repeated 50 times by each signer. The database is recorded using state-of-art multi-modal Microsoft Kinect V2.
+
+The hierarchical structure of KArSL database is shown in Figure 5. The signs are categorized into
+three classes: (1) numbers, (2) letters, and (3) words. Each category contains a set of signs. Each sign is given a unique number of five digits. For each sign, there are 50 samples performed by each signer that are saved in MP4 file for color video and two binary files for depth and skeleton jointpoints. Each sign sample is saved with the name format: `Category_Sign_Signer_ddddd_Type.ext` where Category can be numbers, letters, or word; Sign is five-digit sign number; Signer is two-digit signer number; ddddd is a serial number of five digits; Type is the type of Kinect output: color, depth, or skeleton; and ext is the file type: color video (.MP4), depth and skeleton(.mat).
+
+Note: We will use alphabet sub-dataset with only one hand in this part.
