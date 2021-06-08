@@ -65,3 +65,12 @@ The diagram above shows the MediaPipe graph for detecting and rendering the posi
 
 - **Subgraph**: A subgraph is a series of calculators grouped into a graph. Subgraphs have defined inputs and outputs and help to abstract what would be an otherwise over-complicated .pbtxt file and diagram. The subgraphs in the diagram are in blue and are: HandLandmark, HandDetection, and Renderer. [ Read more about MediaPipe's structure here](https://google.github.io/mediapipe/framework_concepts/framework_concepts.html)
 
+## Summary
+- Real-time translation of sign language is a computationally difficult task that may not be possible on most consumer-grade hardware. However, new libraries such as MediaPipe are starting to make mobile real-time sign language translation possible.
+
+- One of the largest obstacles to the creating of a neural network for the translation of sign language is the lack of publicly available sign language data. Possible solution could be to crowdsource data collection.
+
+- The collection, management, and processing of training data is a task which cannot feasibly be done manually, and should be streamlined.
+
+In the future articles we will talk about data cleaning and preprocessing, Extracting Holistic model positions/features for each frame of the videos and saving them, by building a pipeline with MediaPipe, that simply writes out the detection made by MediaPipe to CSV files.
+
