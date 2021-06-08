@@ -3,10 +3,9 @@ layout: post
 title: Introduction to Arabic Sign Language Recognition
 date: '2021-06-6 10:42'
 excerpt: >-
-  Doubling the training speed by adding two arguments to the new input pipeline
-  - or why you should always carefully read the docs.
+  Introduction to Arabic Sign Language Recognition with MediaPipe framework and custom Deep Learning approach.
 comments: true
-published: false
+published: true
 ---
 
 ## What is Arabic Sign Language (ArSL)?
