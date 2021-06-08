@@ -4,5 +4,4 @@ title: About me
 subtitle:
 ---
 
-I recently started a PhD in machine/deep learning at the [Institut of Bioinformatics](http://www.bioinf.jku.at/) of the Johannes Kepler University in Linz, Austria in the team of Sepp Hochreiter.
-Previously I worked at the Institute of Water Management, Hydrology and Hydraulic Engineering at the BOKU University in Vienna, as a research assistant. I did my Master in environmental engineering ant the topic of my Master thesis was the development of a software as part of a semi-automatic monitoring system for fish migration in fish passes. The thesis can be found [here](http://permalink.obvsg.at/bok/AC13359496) (in German only). In my time as research assistant at the BOKU university I mostly worked on machine learning applications in the field of hydrology and environmental sciences.
+Ahmed Moorsy is a Machine Learning Engineer at [Sakneen](https://www.sakneen.com/en), Specializing in filling the gap between the research in Machine/Deep learning theory and the software industry by implementing state-of-the-art models and scale them to operate well in scalable /reliable data project pipeline, has in-depth theoretical knowledge and hands-on experience of a diverse set of ML/DL libraries with almost three years of professional experience in implementing ML/DL.
