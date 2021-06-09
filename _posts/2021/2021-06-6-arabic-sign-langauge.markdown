@@ -18,7 +18,7 @@ Note: ArSL uses only one hand to form the letters in the alphabet.
 
 ![1-s2.0-S2352340919301283-gr1.jpg]({{site.baseurl}}/img/1-s2.0-S2352340919301283-gr1.jpg)
 
-Any ArSL user knows how crucial being able to fingerspell and understand it in return truly is. Fingerspelling is used to spell out words that do not have a sign such as people’s names, countries, cities and brand names. When you’re in the early stages of learning and don’t know sign language phrases, the sign language alphabet can bridge the gap between you and the Hard of hearing person you need to communicate with.
+Any ArSL user knows how crucial being able to fingerspell and understand it in return truly is. Fingerspelling is used to spell out words that do not have a sign such as people’s names, countries, cities and brand names. When you’re in the early stages of learning and don’t know sign language phrases, the sign language alphabet can bridge the gap between you and the deaf person you need to communicate with.
 
 
 ## Approach and Methodology
@@ -73,4 +73,3 @@ The diagram above shows the MediaPipe graph for detecting and rendering the posi
 - The collection, management, and processing of training data is a task which cannot feasibly be done manually, and should be streamlined.
 
 In the Upcoming articles we will talk about data cleaning and preprocessing, Extracting Holistic model positions/features for each frame of the videos and saving them locally to train our Deep learning model.
-
