@@ -15,8 +15,11 @@ Arabic Sign Language or ArSL as it’s popularly called by its acronym, is a fas
 Note: ArSL uses only one hand to form the letters in the alphabet.
 
 #### HERE’S THE ARABIC SIGN LANGUAGE ALPHABET TO HELP YOU GET STARTED IN LEARNING ArSL:
-
-![1-s2.0-S2352340919301283-gr1.jpg]({{site.baseurl}}/img/1-s2.0-S2352340919301283-gr1.jpg)
+<div class="fig figcenter fighighlight">
+  <img src="/img/1-s2.0-S2352340919301283-gr1.jpg">
+  <div class="figcaption"><br><a href="https://data.mendeley.com/datasets/y7pckrw6z2/1?fbclid=IwAR0ucbKGH9VdkzI2LccuTnk5wcoMQ0odAKSQkq6wKmG9-cvsDj4hwm9Rnb8">source</a><br>
+  </div>
+</div>
 
 Any ArSL user knows how crucial being able to fingerspell and understand it in return truly is. Fingerspelling is used to spell out words that do not have a sign such as people’s names, countries, cities and brand names. When you’re in the early stages of learning and don’t know sign language phrases, the sign language alphabet can bridge the gap between you and the deaf person you need to communicate with.
 
