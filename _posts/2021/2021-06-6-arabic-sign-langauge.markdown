@@ -17,7 +17,7 @@ Note: ArSL uses only one hand to form the letters in the alphabet.
 #### HERE’S THE ARABIC SIGN LANGUAGE ALPHABET TO HELP YOU GET STARTED IN LEARNING ArSL:
 <div class="fig figcenter fighighlight">
   <img src="/img/1-s2.0-S2352340919301283-gr1.jpg">
-  <div class="figcaption"><br><a href="https://data.mendeley.com/datasets/y7pckrw6z2/1?fbclid=IwAR0ucbKGH9VdkzI2LccuTnk5wcoMQ0odAKSQkq6wKmG9-cvsDj4hwm9Rnb8">source</a><br>
+  <div class="figcaption" style="text-align: center;"><br><a href="https://data.mendeley.com/datasets/y7pckrw6z2/1?fbclid=IwAR0ucbKGH9VdkzI2LccuTnk5wcoMQ0odAKSQkq6wKmG9-cvsDj4hwm9Rnb8">source</a><br>
   </div>
 </div>
 
