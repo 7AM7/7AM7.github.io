@@ -55,15 +55,15 @@ When it comes to complete sign language translation, there are three main phases
 
 ![Diagram of a MediaPipe graph](https://github.com/AriAlavi/SigNN/blob/master/docs/images/mobile/hand_tracking_mobile.png?raw=true)
 
-The diagram above shows the MediaPipe graph for detecting and rendering the position of a hand in a video. MediaPipe works through a system of graphs, subgraphs, calculators, and packets.
+The diagram above shows the MediaPipe graph for detecting and rendering the position of a hand in a video. MediaPipe works through a system of `graphs`, `subgraphs`, `calculators`, and `packets`.
 
-- **Packets**: Packets is simply any data structure with a time stamp. In the shown diagram, input_video is the packet that is fed into the graph. The HandLandmark subgraph takes in the packets: NORM_RECT and IMAGE while outputs the packets: NORM_RECT, PRESENCE, and LANDMARKS. Packets are sent between calculators on each frame.
+- **Packets**: Packets is simply any data structure with a time stamp. In the shown diagram, `input_video` is the packet that is fed into the graph. The `HandLandmark` subgraph takes in the packets: `NORM_RECT` and `IMAGE` while outputs the packets: `NORM_RECT`, `PRESENCE`, and `LANDMARKS`. Packets are sent between calculators on each frame.
 
-- **Graph**: A graph is the structure of the entire program. The entire diagram itself is a graph called "Hand Tracking CPU". Graphs are defined in special .pbtxt files and are read at the start of run-time, meaning that they can be modified without recompiling the code.
+- **Graph**: A graph is the structure of the entire program. The entire diagram itself is a graph called "Hand Tracking CPU". Graphs are defined in special `.pbtxt` files and are read at the start of run-time, meaning that they can be modified without recompiling the code.
 
-- **Calculators**: Calculators can have inputs and outputs. They run code on creation, per frame, and on close. An example of a calculator could be one that takes in coordinates of hands and outputs those coordinates being normalized. Another example of a calculator could be one that takes in a tensorflow session and a series of tensors and outputs detections. Some examples of calculators in the diagram are: FlowLimiter, PreviousLoopback, and Gate.
+- **Calculators**: Calculators can have inputs and outputs. They run code on creation, per frame, and on close. An example of a calculator could be one that takes in coordinates of hands and outputs those coordinates being normalized. Another example of a calculator could be one that takes in a tensorflow session and a series of tensors and outputs detections. Some examples of calculators in the diagram are: `FlowLimiter`, `PreviousLoopback`, and `Gate`.
 
-- **Subgraph**: A subgraph is a series of calculators grouped into a graph. Subgraphs have defined inputs and outputs and help to abstract what would be an otherwise over-complicated .pbtxt file and diagram. The subgraphs in the diagram are in blue and are: HandLandmark, HandDetection, and Renderer. [ Read more about MediaPipe's structure here](https://google.github.io/mediapipe/framework_concepts/framework_concepts.html)
+- **Subgraph**: A subgraph is a series of calculators grouped into a graph. Subgraphs have defined inputs and outputs and help to abstract what would be an otherwise over-complicated .pbtxt file and diagram. The subgraphs in the diagram are in blue and are: `HandLandmark`, `HandDetection`, and `Renderer`. [ Read more about MediaPipe's structure here](https://google.github.io/mediapipe/framework_concepts/framework_concepts.html)
 
 ## Summary
 - Real-time translation of sign language is a computationally difficult task that may not be possible on most consumer-grade hardware. However, new libraries such as MediaPipe are starting to make mobile real-time sign language translation possible.
