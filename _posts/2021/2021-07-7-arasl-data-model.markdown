@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ArASL: Data Preparation & Model Training
-date: '2021-06-6 10:42'
+date: '2021-07-7 10:42'
 excerpt: >-
 Preparing the Dataset & Building ArASL Model.
 comments: true
