@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ArASL: Data Preparation & Model Training
+title: 'ArASL: Data Preparation & Model Training'
 date: '2021-07-7 10:42'
 excerpt: >-
 Preparing the Dataset & Building ArASL Model.
@@ -16,7 +16,7 @@ Welcome back to my AI blog! In my last post, I gave a brief about Arabic Sign La
 
 
 <div class="fig figcenter fighighlight">
-  <img width="300" height="300" src="../../img/chars.png">
+  <img width="300" height="300" src="/img/chars.png">
   <div class="figcaption" style="text-align: center;"><br>
   </div>
 </div>
@@ -37,7 +37,7 @@ Mediapipe Hands consists of two different models working together namely Palm De
 After feeding our dataset videos into Mediapipe Hands solution we can see the results below
 
 <div class="fig figcenter fighighlight">
-  <img width="300"  src="../../img/data.png">
+  <img width="300"  src="/img/data.png">
   <div class="figcaption" style="text-align: center;"><br>
   </div>
 </div>
@@ -56,7 +56,7 @@ Z-score gives you an idea of how far from the mean a data point is. More technic
 Also, I rearranged the number of frames in a single video to `45` frames this will help us to have a static number of frames for each character.
 
 <div class="fig figcenter fighighlight">
-  <img src="../../img/hist.png">
+  <img src="/img/hist.png">
   <div class="figcaption" style="text-align: center;"><br><h5 style="text-align: center;">Frame-Count Histogram</h5><br>
   </div>
 </div>
@@ -82,7 +82,7 @@ The Tensorflow model trained using the following architecture (velow fig. Model 
 
 
 <div class="fig figcenter fighighlight">
-  <img width="300"  src="../../img/nn_graph.png">
+  <img width="300"  src="/img/nn_graph.png">
   <div class="figcaption" style="text-align: center;"><br>
   </div>
 </div>
@@ -93,7 +93,7 @@ The Tensorflow model trained using the following architecture (velow fig. Model 
 After running the model, we achieved an accuracy of `83.30%` and loss of `0.0999` for training. For Validation, accuracy of `80.15%` and loss of `0.1992`.
 
 <div class="fig figcenter fighighlight">
-  <img src="../../img/acc.png">
+  <img src="/img/acc.png">
   <div class="figcaption" style="text-align: center;"><br><h5 style="text-align: center;">Accuracy  &  Validation Accuracy</h5><br>
   </div>
 </div>
@@ -110,7 +110,7 @@ After running the model, we achieved an accuracy of `83.30%` and loss of `0.0999
 On testingset, we achieved an accuracy of `81%` and F1-score Macro of `91%`,  F1-score weighted of `81%`.
 
 <div class="fig figcenter fighighlight">
-  <img src="../../img/report.png">
+  <img src="/img/report.png">
   <div class="figcaption" style="text-align: center;"><br><h5 style="text-align: center;">Classification Report</h5><br>
   </div>
 </div>
