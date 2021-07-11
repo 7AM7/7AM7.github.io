@@ -1,11 +1,7 @@
 ---
 layout: post
-title: ArASL Data Preparation & Model Training
-date: '2021-07-7 10:42'
-excerpt: >-
-Preparing the Dataset & Building ArASL Model.
-comments: true
-published: true
+published: false
+title: 'ArASL : Data Preparation & Model Training'
 ---
 
 Welcome back to my AI blog! In my last post, I gave a brief about Arabic Sign Language Recognition. Today, I’ll help you continue your journey with prepare your dataset and build your ArASL model.
