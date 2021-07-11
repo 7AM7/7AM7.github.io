@@ -100,7 +100,7 @@ After running the model, we achieved an accuracy of `83.30%` and loss of `0.0999
 
 
 <div class="fig figcenter fighighlight">
-  <img src="../../img/loss.png">
+  <img src="/img/loss.png">
   <div class="figcaption" style="text-align: center;"><br><h5 style="text-align: center;">Loss  &  Validation Loss</h5><br>
   </div>
 </div>
